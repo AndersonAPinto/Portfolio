@@ -7,7 +7,7 @@ function Paginas() {
 
   return (
     <div >
-     <Start />
+     
      {trocarPag === 'start' && <Start />}
      {trocarPag === 'aboutme' && <Aboutme />}
 
