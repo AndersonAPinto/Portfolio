@@ -1,0 +1,20 @@
+.tx{
+    margin: auto;
+    text-align: justify;
+    padding: 5px 20px;
+    border: 1px;
+    border-radius: 10px;
+    background-color: gray;
+    width: 80%;
+    
+}
+.templateGlobal{
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+#form{
+    height: 25vh;
+}
+

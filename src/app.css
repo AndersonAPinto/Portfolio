@@ -1,0 +1,13 @@
+.templates{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-left: 10px;
+    white-space: nowrap;
+    height: auto;
+}
