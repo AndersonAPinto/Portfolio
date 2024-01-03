@@ -1,6 +1,24 @@
-#root{
+#root {
     margin: auto;
     padding: 20px;
-    
+    font-family: 'Glory', sans-serif;
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #D8D8D8;
 }
-
+/* CORES GLOABIS*/
+.fundotemplate{
+    color: #D8D8D8;
+}
+.barnRed{
+    color: #780000;
+}
+.venetianRed{
+    color:#C1121F ;
+}
+.airBlue{
+    color: #669BBC;
+}
+.prussianBlue{
+    color:#003049;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import '../models/globaltext.css'
 const Aboutme = () =>
-    <div className="tx">
+    <div className="tx color bg-about">
         <h1>Sobre Mim</h1>
         <div className="templateGlobal">
             <p>

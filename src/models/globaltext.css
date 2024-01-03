@@ -1,20 +1,79 @@
-.tx{
-    margin: auto;
+.tx {
+    display: inline-block;
     text-align: justify;
     padding: 5px 20px;
     border: 1px;
     border-radius: 10px;
     background-color: gray;
-    width: 80%;
-    
-}
-.templateGlobal{
-    
-    align-items: center;
-    justify-content: center;
-    
-}
-#form{
-    height: 25vh;
+    color: #ccc;
+    height: 80%;
+    width: 1260px;
 }
 
+.template {
+    display: flex;
+}
+
+.botoes:hover {
+    cursor: pointer;
+}
+
+.botoes {
+    width: 50px;
+    justify-content: center;
+}
+
+.bg-start {
+    background-color: #780000;
+}
+
+.bg-about {
+    background-color: #669BBC;
+}
+
+.bg-contact {
+    background-color: #C1121F;
+}
+
+.formContact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bg-tech {
+    background-color: #003049;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+label {
+    margin-top: 3px;
+}
+
+input,label {
+    display: flex;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+}
+textarea {
+    width: 400px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+}
+.img-fluid{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}

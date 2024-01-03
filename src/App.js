@@ -4,6 +4,13 @@ import Aboutme from "./models/Aboutme";
 import Techs from "./models/Techs";
 import Contact from "./models/Contact";
 import Works from "./models/Works";
+import Imageabout from '../src/itens/sobremim.png'
+import Imagehome from '../src/itens/home.png'
+import Imagetech from '../src/itens/tech.png'
+import Imageworks from '../src/itens/works.png'
+import Imagecontact from '../src/itens/contact.png'
+
+
 import '../src/app.css'
 
 
@@ -19,16 +26,16 @@ function Paginas() {
         {trocarPag === 'techs' && <Techs />}
         {trocarPag === 'contact' && <Contact />}
         {trocarPag === 'works' && <Works />}
+        
+        <div className="botoes">
+        <img onClick={() => settrocarPag('start')} src={Imagehome} alt="item start" />
+        <img onClick={() => settrocarPag('aboutme')} src={Imageabout} alt="item aboutme" />
+        <img onClick={() => settrocarPag('techs')} src={Imagetech} alt="item techs" />
+        <img onClick={() => settrocarPag('contact')} src={Imagecontact} alt="item contact" />
+        <img onClick={() => settrocarPag('works')} src={Imageworks} alt="item works" />
       </div>
-      <div className="botoes">
-        <button onClick={() => settrocarPag('start')}>Início</button>
-        <button onClick={() => settrocarPag('aboutme')}>Sobre mim</button>
-        <button onClick={() => settrocarPag('techs')}>Techs</button>
-        <button onClick={() => settrocarPag('contact')}>Contato</button>
-        <button onClick={() => settrocarPag('works')}>Trabalhos</button>
-
-
       </div>
+      
     </div>
   );
 }
