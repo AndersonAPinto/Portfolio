@@ -1,14 +1,13 @@
 import React from "react";
-import '../models/globaltext.css'
+
 
 const Contact = () =>
     <div className="tx bg-contact">
-        
+        <h1 >Contato</h1>
         <div className="formContact">
-            
             <form id="form">
                 <div>
-                    <h1 className="mt-5">Contato</h1>
+                    
                     <label htmlFor="nome">Nome</label>
                     <input type="text" id="nome" name="nome" required />
                 </div>

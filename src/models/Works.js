@@ -3,7 +3,7 @@ import ImageWorks from '../itens/WebSiteConsumptionEletricCar.png'
 import '../models/globaltext.css'
 
 const Works = () =>
-    <div className="tx">
+    <div className="tx bg-works">
         <h1>Trabalhos</h1>
         <div className="row">
             
