@@ -1,39 +1,25 @@
-import React, { useState } from "react";
-import Start from "./models/Start";
-import Aboutme from "./models/Aboutme";
-import Techs from "./models/Techs";
-import Contact from "./models/Contact";
-import Works from "./models/Works";
-import Imageabout from '../src/itens/sobremim.png';
-import Imagehome from '../src/itens/home.png';
-import Imagetech from '../src/itens/tech.png';
-import Imageworks from '../src/itens/works.png';
-import Imagecontact from '../src/itens/contact.png';
+import React, { useEffect, useState } from "react";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Content from "./components/content/Content";
+import effectBackgroundColor from "./components/functonalities/ItinerantBg";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
-function Paginas() {
-  const [trocarPag, settrocarPag] = useState('start');
 
+
+function App() {
   return (
-    <div className="templates">
-      
-        {trocarPag === 'start' && <Start />}
-        {trocarPag === 'aboutme' && <Aboutme />}
-        {trocarPag === 'techs' && <Techs />}
-        {trocarPag === 'contact' && <Contact />}
-        {trocarPag === 'works' && <Works />}
-
-        <div className="botoes">
-          <img onClick={() => settrocarPag('start')} src={Imagehome} alt="item start" />
-          <img onClick={() => settrocarPag('aboutme')} src={Imageabout} alt="item aboutme" />
-          <img onClick={() => settrocarPag('techs')} src={Imagetech} alt="item techs" />
-          <img onClick={() => settrocarPag('contact')} src={Imagecontact} alt="item contact" />
-          <img onClick={() => settrocarPag('works')} src={Imageworks} alt="item works" />
-        </div>
-      
+    <div>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Content/>} />
+        </Routes>
+      </Router>
 
     </div>
   );
 }
 
-export default Paginas;
+export default App;
