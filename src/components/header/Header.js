@@ -8,9 +8,10 @@ const Header = () => (
             <div className="menu">
                 <nav>
                     <Link to ="/">Início</Link>
-                    <a href="#t">Teste</a>
-                    <a href="#s">Sobre mim</a>
-                    <a href="#c">Contatos</a>
+                    <Link to ="/pageinfo">Sobre mim</Link>
+                    <Link to ="/pagetech">Tecnologias</Link>
+                    <Link to ="/pageworks">Trabalhos</Link>
+                    <Link to ="/pagecontact">Contatos</Link>
                 </nav>
             </div>
         </div>

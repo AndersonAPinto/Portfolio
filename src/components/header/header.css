@@ -23,5 +23,7 @@ nav a{
 nav a:hover {
     padding: 3.2vh 0.09vw;
     background-color: rgb(180, 47, 47);
+    font-weight: bold;
     cursor: pointer;
+    color: white;
 }

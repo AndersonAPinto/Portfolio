@@ -18,20 +18,20 @@
 
 .icon {
     position: absolute;
-    width: 40px; /* Ajuste o tamanho dos ícones */
+    width:40px; /* Ajuste o tamanho dos ícones */
     height: 40px; /* Ajuste o tamanho dos ícones */
     text-align: center;
-    /* Centralize o conteúdo dentro do ícone */
     display: flex;
     justify-content: center;
     transform: translate(-50%, -50%);
+    
 }
 
 /* Calculando o posicionamento dos ícones */
 .icon:nth-child(1) { transform: translate(-10px, -40px); }
-.icon:nth-child(2) { transform: translate(-90px, 51px); }
-.icon:nth-child(3) { transform: translate(-120px, 180px); }
-.icon:nth-child(4) { transform: translate(-90px, 330px); }
-.icon:nth-child(5) { transform: translate(460px, 330px); }
+.icon:nth-child(2) { transform: translate(-100px, 81px); }
+.icon:nth-child(3) { transform: translate(-120px, 230px); }
+.icon:nth-child(4) { transform: translate(-70px, 370px); }
+.icon:nth-child(5) { transform: translate(430px, 365px); }
 
 
