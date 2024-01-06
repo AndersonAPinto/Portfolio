@@ -4,7 +4,6 @@
     padding: 0;
     justify-content: center;
    
-   
     
     
 }
@@ -35,4 +34,8 @@
 .icon:nth-child(4) { transform: translate(-70px, 370px); }
 .icon:nth-child(5) { transform: translate(430px, 365px); }
 
+/*  PAGE FOOTER*/
 
+.containerfooter{
+    margin-top: auto;
+}
