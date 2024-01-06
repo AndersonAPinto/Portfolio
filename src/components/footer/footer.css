@@ -1,0 +1,14 @@
+.containerfooter{
+    display: flex;
+    height: 6.5vh;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(41, 71, 41, 0.9);
+    
+}
+#btnfooter{
+    margin: 0 0.1vw;
+    width: 2vw;
+    height: 4vh;
+    background-image: linear-gradient(45deg, #FF2500, #f3600a); 
+}

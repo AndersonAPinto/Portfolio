@@ -25,7 +25,6 @@ const PageContact = () => {
                 </div>
 
                 <div className="btnscontact">
-                    <button ><i class="fa-brands fa-whatsapp" style={{ fontSize: '100px', color: '#003049' }} ></i></button>
                     <button className="btnsubmitcontact" onMouseEnter={mouseIn} onMouseLeave={mouseOut}>
                         <i className={isUnder ? "fa-solid fa-envelope fa-bounce": "fa-solid fa-envelope" } style={{ fontSize: '100px', color: '#003049' }} ></i>
                     </button>

@@ -3,12 +3,60 @@
     margin: 0;
     padding: 0;
     justify-content: center;
-   
+
+}
+#circlesPage1{
+    position: absolute;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 50%;
+    transform: translate(-42vw, 68vh);
+    background: linear-gradient( 45deg, #2b7e1f ,transparent 900%);
+    /*background-image: linear-gradient(45deg, #635e5dfb, #f55d0546);*/   
+}
+#circlesPage2{
+    position: absolute;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 50%;
+    transform: translate(-42vw, 45vh);
+    background: linear-gradient( 45deg, #4d9e3d ,transparent 200%);
+    /*background-image: linear-gradient(45deg, #635e5dfb, #f55d0546);*/   
+}
+#circlesPage3{
+    position: absolute;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 50%;
+    transform: translate(-42vw, 22vh);
+    background: linear-gradient( 45deg, #6fbf5c ,transparent 90%);
+    /*background-image: linear-gradient(45deg, #635e5dfb, #f55d0546);*/   
+}
+.textcontent h6{
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.01);
+    transform: translate(17vw, 11vh);
+    font-size: 24px;
+}
+.textcontent h6::after{
+    content: " ";
+    width: 0;
+    height: 2vh;
+    background-image: linear-gradient(45deg, #6fbf5c, #2b7e1f);
+    position: absolute;
+    top: 4.5vh;
+    left: 0;
+    border-radius: 4px;
+    transition: width 0.5s;
     
     
 }
+.textcontent h6:hover::after{
+    width: 23.5vw;
+}
+
 .circle-container { 
-    margin-top: 5vh;
+    margin-top: 10vh;
     position: absolute;
     width: 500px;  /* Diâmetro do círculo */
     height: 500px; /* Diâmetro do círculo */
@@ -32,7 +80,6 @@
 .icon:nth-child(2) { transform: translate(-100px, 81px); }
 .icon:nth-child(3) { transform: translate(-120px, 230px); }
 .icon:nth-child(4) { transform: translate(-70px, 370px); }
-.icon:nth-child(5) { transform: translate(430px, 365px); }
 
 /*  PAGE FOOTER*/
 

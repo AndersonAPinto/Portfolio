@@ -17,13 +17,15 @@ nav a{
     text-decoration: none;
     margin-right: 1vw;
     transition: 0.1s ease;
-    
+   
     }
 
 nav a:hover {
-    padding: 3.2vh 0.09vw;
-    background-color: rgb(180, 47, 47);
+    padding: 3.2vh 0.3vw;
+    background-color: #FF2500;
     font-weight: bold;
     cursor: pointer;
     color: white;
+    transition: 0.2s;
+    border-radius: 6px;
 }
