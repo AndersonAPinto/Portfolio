@@ -29,13 +29,13 @@ const PageContact = () => {
                     </form>
                 </div>
                 <div>
-                    <button id="btnfootercontact" ><a href="https://api.whatsapp.com/send?phone=5551997802755&text=Ol%C3%A1%20tudo%20bem?%20Muito%20Prazer.%0AObrigado%20por%20entrar%20em%20contato.%0AEm%20breve%20retornarei%20a%20sua%20mensagem.">
+                    <button id="btnfootercontact" ><a href="https://api.whatsapp.com/send?phone=5551997802755&text=Ol%C3%A1%20tudo%20bem?%20Muito%20Prazer.%0AObrigado%20por%20entrar%20em%20contato.%0AEm%20breve%20retornarei%20a%20sua%20mensagem." target="_blank">
                         <i className="fa-brands fa-whatsapp fa-2xl" style={{ color: '#003049' }} ></i></a>
                     </button>
-                    <button id="btnfootercontact" ><a href="https://www.linkedin.com/in/andersonapinto/" ><i className="fa-brands fa-linkedin fa-2xl" style={{ color: '#003049' }}></i></a></button>
-                    <button id="btnfootercontact" ><a href="https://github.com/AndersonAPinto"><i className="fa-brands fa-github fa-2xl" style={{ color: '#003049' }} ></i></a></button>
-                    <button id="btnfootercontact" ><a href="https://www.instagram.com/andersonaugusto.pinto/"><i className="fa-brands fa-instagram fa-2xl" style={{ color: '#003049' }} ></i></a></button>
-                    <button id="btnfootercontact" ><a href="https://t.me/AndersonAPinto"><i className="fa-brands fa-telegram fa-2xl" style={{ color: '#003049' }} ></i></a></button>
+                    <button id="btnfootercontact" ><a href="https://www.linkedin.com/in/andersonapinto/" target="_blank"><i className="fa-brands fa-linkedin fa-2xl" style={{ color: '#003049' }}></i></a></button>
+                    <button id="btnfootercontact" ><a href="https://github.com/AndersonAPinto" target="_blank"><i className="fa-brands fa-github fa-2xl" style={{ color: '#003049' }} ></i></a></button>
+                    <button id="btnfootercontact" ><a href="https://www.instagram.com/andersonaugusto.pinto/" target="_blank"><i className="fa-brands fa-instagram fa-2xl" style={{ color: '#003049' }} ></i></a></button>
+                    <button id="btnfootercontact" ><a href="https://t.me/AndersonAPinto" target="_blank"><i className="fa-brands fa-telegram fa-2xl" style={{ color: '#003049' }} ></i></a></button>
 
                 </div>
             </div>
