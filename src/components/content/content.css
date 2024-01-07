@@ -85,19 +85,3 @@
 .icon:nth-child(2) { transform: translate(-100px, 81px); }
 .icon:nth-child(3) { transform: translate(-120px, 230px); }
 .icon:nth-child(4) { transform: translate(-70px, 370px); }
-
-/*  PAGE WORKS*/
-.fotoworks{
-    display: flex;
-    
-    
-    
-}
-.framefotos{
-    
-    
-    background-color: #4d9e3d;
-    
-    
-    
-}

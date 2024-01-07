@@ -98,7 +98,17 @@ input, textarea{
     flex-direction: column;
     font-size: 20px;
 }
-
+#btnfootercontact{
+    margin: 0 0.2vw;
+    width: 4vw;
+    height: 8vh;
+    background-image: linear-gradient(45deg, #FF2500, #f3600a); 
+    
+}
+#btnfootercontact:hover{
+    transform: scale(1.3);
+    transition: transform 0.5s; 
+}
 /*  PAGE WORKS*/
 
 .fotoworks{
@@ -119,7 +129,7 @@ input, textarea{
     background-image: linear-gradient(45deg, #e41414, #FF4600);
 }
 
-h6{
+h5{
     margin-top: 165px;
     text-align: center;
     font-size: 25px;

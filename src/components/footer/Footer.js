@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import './footer.css';
 
 const Footer = () => {
@@ -16,12 +17,7 @@ const Footer = () => {
         <footer>
             <div className="containerfooter">
                 <div className="menufooter" >
-                    <button id="btnfooter" onMouseEnter={mouseIn} onMouseLeave={mouseOut}><i className={isUnder ? "fa-brands fa-whatsapp fa-bounce" : "fa-brands fa-whatsapp"} style={{ color: '#003049' }} ></i></button>
-                    <button id="btnfooter" onMouseEnter={mouseIn} onMouseLeave={mouseOut}><i className={isUnder ? "fa-brands fa-linkedin fa-bounce" : "fa-brands fa-linkedin"} style={{ color: '#003049' }}></i></button>
-                    <button id="btnfooter" onMouseEnter={mouseIn} onMouseLeave={mouseOut}><i className={isUnder ? "fa-brands fa-github fa-bounce" : "fa-brands fa-github"} style={{ color: '#003049' }} ></i></button>
-                    <button id="btnfooter" onMouseEnter={mouseIn} onMouseLeave={mouseOut}><i className={isUnder ? "fa-brands fa-instagram fa-bounce" : "fa-brands fa-instagram"} style={{ color: '#003049' }} ></i></button>
-                    <button id="btnfooter" onMouseEnter={mouseIn} onMouseLeave={mouseOut}><i className={isUnder ? "fa-brands fa-telegram fa-bounce" : "fa-brands fa-telegram"} style={{ color: '#003049' }} ></i></button>
-
+                   <p>AASP - 2024</p>
                 </div>
             </div>
         </footer>
