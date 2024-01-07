@@ -24,7 +24,7 @@ const Content = () => {
                     <Link to="/pagecontact"><i class="fa-solid fa-headset fa-2xl" style={{ fontSize: '50px', color: '#FF2500' }}></i></Link>
                 </div>
             </div>
-            <div className="textcontent"><h6>Olá, sou o Anderson Pinto...</h6></div>
+            <div className="textcontent"><h6>Olá, sou Anderson Pinto...</h6></div>
             
             <div  id="circlesPage2"></div>
             <div id="circlesPage3"></div>
