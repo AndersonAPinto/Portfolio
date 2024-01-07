@@ -7,7 +7,7 @@ const PageContact = () => {
         setIsUnder(true);
     };
 
-    const mouseOut =()=>{
+    const mouseOut = () => {
         setIsUnder(false);
     }
 
@@ -20,15 +20,13 @@ const PageContact = () => {
                         <input placeholder="Nome"></input>
                         <input placeholder="Email"></input>
                         <textarea placeholder="Escreva aqui o seu texto..." style={{ height: '30vh' }}></textarea>
+
+                        <div className="btnscontact">
+                            <button className="btnsubmitcontact" onMouseEnter={mouseIn} onMouseLeave={mouseOut}>
+                                <i className={isUnder ? "fa-solid fa-envelope fa-bounce" : "fa-solid fa-envelope"} style={{ fontSize: '100px', color: '#003049' }} ></i>
+                            </button>
+                        </div>
                     </form>
-
-                </div>
-
-                <div className="btnscontact">
-                    <button className="btnsubmitcontact" onMouseEnter={mouseIn} onMouseLeave={mouseOut}>
-                        <i className={isUnder ? "fa-solid fa-envelope fa-bounce": "fa-solid fa-envelope" } style={{ fontSize: '100px', color: '#003049' }} ></i>
-                    </button>
-
                 </div>
             </div>
         </div>
