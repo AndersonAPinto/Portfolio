@@ -9,6 +9,11 @@ const PageWorks = () => {
                 <h1>Trabalhos</h1>
             </div>
             <div className="fotoworks">
+                <div className="framefotos"></div>
+                <div className="framefotos"></div>
+                <div className="framefotos"></div>
+                <div className="framefotos"></div>
+                
             </div>
         </div>
     );

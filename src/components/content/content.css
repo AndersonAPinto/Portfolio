@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     justify-content: center;
-
 }
 #circlesPage1{
     position: absolute;
@@ -21,7 +20,7 @@
     border-radius: 50%;
     transform: translate(-42vw, 45vh);
     background: linear-gradient( 45deg, #4d9e3d ,transparent 200%);
-    /*background-image: linear-gradient(45deg, #635e5dfb, #f55d0546);*/   
+    
 }
 #circlesPage3{
     position: absolute;
@@ -48,13 +47,10 @@
     left: 0;
     border-radius: 4px;
     transition: width 0.5s;
-    
-    
 }
 .textcontent h6:hover::after{
     width: 23.5vw;
 }
-
 .circle-container { 
     margin-top: 10vh;
     position: absolute;
@@ -72,8 +68,15 @@
     display: flex;
     justify-content: center;
     transform: translate(-50%, -50%);
-   
+    
+    
 }
+.icon:hover i {
+    
+    transform: scale(1.2); 
+    transition: transform 0.3s; 
+}
+
 
 /* Calculando o posicionamento dos ícones */
 .icon:nth-child(1) { transform: translate(-10px, -40px); }
@@ -81,8 +84,18 @@
 .icon:nth-child(3) { transform: translate(-120px, 230px); }
 .icon:nth-child(4) { transform: translate(-70px, 370px); }
 
-/*  PAGE FOOTER*/
-
-.containerfooter{
-    margin-top: auto;
+/*  PAGE WORKS*/
+.fotoworks{
+    display: flex;
+    
+    
+    
+}
+.framefotos{
+    
+    
+    background-color: #4d9e3d;
+    
+    
+    
 }
