@@ -18,18 +18,24 @@ p{
     margin: 10vh;
     justify-content: center;
     align-items: center;
+    cursor: default;
+
 }
 .iconstech_{
     display: flex;
     margin: 10vh;
     justify-content: center;
+    cursor: default;
 }
-button{
+
+.tess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     height: 20vh;
     width: 10vw;
     border-radius: 10%;
-    cursor:pointer;
     background-image: linear-gradient(45deg, #FF2500, #f3600a);
     margin: 0px 0 4px 10px;
 }
@@ -37,6 +43,8 @@ button{
 .aligntextbtns{
     display: flex;
     align-items: center;
+    
+
     
 }
 .textbtn{
@@ -97,6 +105,14 @@ input, textarea{
     justify-content: center;
     flex-direction: column;
     font-size: 20px;
+}
+button{
+    border: none;
+    height: 20vh;
+    width: 10vw;
+    border-radius: 10%;
+    background-image: linear-gradient(45deg, #FF2500, #f3600a);
+    margin: 0px 0 4px 10px;
 }
 #btnfootercontact{
     margin: 0 0.2vw;
