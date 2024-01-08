@@ -3,6 +3,7 @@
     justify-content: center;
     height: 100vh;
     background-color: white;
+    position: relative;
 }
 #circlesPage1 {
     position: absolute;
@@ -30,23 +31,29 @@
     border-radius: 50%;
     transform: translate(-40vw, 25vh);
     background: linear-gradient(45deg, #6fbf5c, transparent 90%);
-    /*background-image: linear-gradient(45deg, #635e5dfb, #f55d0546);*/
 }
 .circle-container {
-    margin:10vh auto;
-    width: 39vw;
-    /* Diâmetro do círculo */
-    height: 85vh;
-    /* Diâmetro do círculo */
-    border: 50px solid #000000cb;
-    /* Para visualização */
+    margin: 8vh auto;
+    width: 39vw;/* Diâmetro do círculo */
+    height: 85vh;/* Diâmetro do círculo */
+    border: 50px solid #00000000;/* Para visualização */
     border-radius: 50%;
     transition: transform 0.3s;
+    z-index: 1;
+    
+}
+#fotoContent img{
+    border-radius: 50%;
+    transform: translate(-3.7vw, -8.2vh);
+    z-index: 1;
+}
+#fotoContent img {
+    width: 39vw;
+    height: 85vh;
 }
 .textcontent{
     position: absolute;
     margin: 10vh 0 0 45vw;
-    
 }
 .textcontent h6::after {
     content: " ";
@@ -68,10 +75,8 @@ h6{
 }
 .icon {
     position: absolute;
-    width: 40px;
-    /* Ajuste o tamanho dos ícones */
-    height: 40px;
-    /* Ajuste o tamanho dos ícones */
+    width: 40px;/* Ajuste o tamanho dos ícones */
+    height: 40px;/* Ajuste o tamanho dos ícones */
     text-align: center;
     display: flex;
     justify-content: center;
@@ -80,7 +85,6 @@ h6{
 
 }
 .icon:hover i {
-
     transform: scale(1.2);
     transition: transform 0.3s;
 }

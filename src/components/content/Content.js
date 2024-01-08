@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
+import ImageContent from '../../fotos/WhatsApp1.jpeg';
 import './content.css';
 
 
@@ -24,8 +25,10 @@ const Content = () => {
                     <Link to="/pagecontact"><i class="fa-solid fa-headset fa-2xl" style={{ fontSize: '50px', color: '#FF2500' }}></i></Link>
                 </div>
 
-                
+                <div id="fotoContent"><img src={ImageContent}/></div>
+
             </div>
+            
            <div className="textcontent"><h6>Ola, sou Anderson Pinto...</h6></div>
             
             
