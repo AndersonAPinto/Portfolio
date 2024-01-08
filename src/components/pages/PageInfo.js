@@ -1,5 +1,5 @@
 import React from "react";
-import ImagemInfo from '../../fotos/WhatsApp2.jpeg';
+import ImagemInfo from '../../fotos/WhatsApp4.png';
 
 
 

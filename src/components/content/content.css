@@ -43,7 +43,7 @@
     
 }
 #fotoContent img{
-    border-radius: 50%;
+    border-radius: 47%;
     transform: translate(-3.7vw, -8.2vh);
     z-index: 1;
 }

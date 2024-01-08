@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-import ImageContent from '../../fotos/WhatsApp1.jpeg';
+import ImageContent from '../../fotos/WhatsApp3.jpeg';
 import './content.css';
 
 

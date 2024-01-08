@@ -63,7 +63,7 @@
 
 .containerParagrafo{
     display: flex;
-    width: 55vw;
+    width: 60vw;
     height: 73vh;
     margin: auto;
     justify-content: center;
@@ -83,11 +83,12 @@
     text-align: justify;
     color: #003049;
     font-weight: bold;
-    font-size: 1.37vw;
+    font-size: 1.32vw;
+    justify-content: space-around;
 }
 #fotoInfo{
     margin-left:2vw;
-    width: 20vw ;
+    width: 26vw ;
     height: 70vh ;
     border-radius: 1vw;
 }
