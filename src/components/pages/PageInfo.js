@@ -2,6 +2,7 @@ import React from "react";
 import ImagemInfo from '../../fotos/testeimg.jpg';
 
 
+
 const PageInfo = () => {
     return (
         <div className="containerPages">
