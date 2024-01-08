@@ -23,7 +23,7 @@ const PageContact = () => {
 
                         <div className="btnscontact">
                             <button className="btnsubmitcontact" onMouseEnter={mouseIn} onMouseLeave={mouseOut}>
-                                <i className={isUnder ? "fa-solid fa-envelope fa-bounce" : "fa-solid fa-envelope"} style={{ fontSize: '100px', color: '#003049' }} ></i>
+                                <i className={isUnder ? "fa-solid fa-envelope fa-bounce" : "fa-solid fa-envelope"} style={{ color: '#003049' }} ></i>
                             </button>
                         </div>
                     </form>

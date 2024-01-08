@@ -17,7 +17,7 @@ const Footer = () => {
         <footer>
             <div className="containerfooter">
                 <div className="menufooter" >
-                   <p>AASP - 2024</p>
+                   AASP - 2024
                 </div>
             </div>
         </footer>

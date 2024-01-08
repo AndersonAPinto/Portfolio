@@ -1,5 +1,5 @@
 import React from "react";
-import ImagemInfo from '../../fotos/testeimg.jpg';
+import ImagemInfo from '../../fotos/WhatsApp2.jpeg';
 
 
 
@@ -8,7 +8,7 @@ const PageInfo = () => {
         <div className="containerPages">
             <div className="text">
                 <h1>Sobre mim</h1>
-                <div className="te">
+                <div className="containerParagrafo">
                     <p id="textinfo">
                         Sou filho único, comecei a trabalhar aos 12 anos em uma oficina mecânica na minha cidade por buscar uma resolução
                         dos problemas financeiros da minha casa, um curioso nato, sempre gostei de entender o funcionamento das coisas,
@@ -17,7 +17,7 @@ const PageInfo = () => {
                         Eu quero ser Desenvolvedor para resolver outros desafios e problemas. Quero fazer parte de algo maior, e sem limites.
                     </p>
                     <div className="fotoinfo">
-                        <img src={ImagemInfo} alt="Imagem Teste de fotos" />
+                        <img src={ImagemInfo} id="fotoInfo" />
                     </div>
                 </div>
             </div>

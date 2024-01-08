@@ -1,6 +1,7 @@
 .containerfooter{
     display: flex;
-    height: 6.5vh;
+    height: 6vh;
+    min-height: 6vh;
     justify-content: center;
     align-items: center;
     background-color:rgb(41, 71, 41, 0.9);
