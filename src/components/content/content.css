@@ -90,9 +90,9 @@ h6{
 }
 
 /* Calculando o posicionamento dos ícones */
-.icon:nth-child(1) {transform: translate(10px, -35px);}
+.icon:nth-child(1) {transform: translate(12px, -30px);}
 
-.icon:nth-child(2) {transform: translate(-100px, 81px);}
+.icon:nth-child(2) {transform: translate(-92px, 81px);}
 
 .icon:nth-child(3) {transform: translate(-103px, 230px);}
 
