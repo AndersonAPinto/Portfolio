@@ -33,7 +33,7 @@
     background: linear-gradient(45deg, #6fbf5c, transparent 90%);
 }
 .circle-container {
-    margin: 8vh auto;
+    margin: 6.7vh auto;
     width: 39vw;/* Diâmetro do círculo */
     height: 85vh;/* Diâmetro do círculo */
     border: 50px solid #00000000;/* Para visualização */
