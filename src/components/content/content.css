@@ -53,7 +53,7 @@
 }
 .textcontent{
     position: absolute;
-    margin: 10vh 0 0 45vw;
+    margin: 10vh 0 0 48vw;
 }
 .textcontent h6::after {
     content: " ";
