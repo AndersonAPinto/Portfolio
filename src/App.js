@@ -1,8 +1,8 @@
 import Dropdown from './components/Layout/Dropdown.jsx';
-import Experience from './components/Pages/Experience.jsx';
-import AboutMe from './components/Pages/AboutMe.jsx';
-import Contact from './components/Pages/Contact.jsx';
-import Home from './components/Pages/Home.jsx';
+import Experience from './components/pages/Experience.jsx';
+import AboutMe from './components/pages/AboutMe.jsx';
+import Contact from './components/pages/Contact.jsx';
+import Home from './components/pages/Home.jsx';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {

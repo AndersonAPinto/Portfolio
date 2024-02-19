@@ -3,7 +3,6 @@ import { HiArrowDownRight } from "react-icons/hi2";
 import { SlSocialGithub, SlSocialFacebook, SlSocialLinkedin, SlSocialInstagram } from "react-icons/sl";
 import { FaWhatsapp } from "react-icons/fa";
 import { BiMailSend } from "react-icons/bi";
-import Banner from '../../imgs/banner.jpg'
 
 import './contact.css';
 

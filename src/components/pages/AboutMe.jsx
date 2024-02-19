@@ -12,7 +12,7 @@ function AboutMe() {
 
             <div className="container_texts">
                 <div className="picture_div">
-                    <img src={Photo} style={{ borderRadius: '40%', marginTop: '41px' }} />
+                    <img src={Photo} style={{ borderRadius: '40%', marginTop: '41px' }} alt='Foto do Dev' />
                 </div>
                 <div className="text_div">
                     <h4 style={{ marginBottom: '5px', color: '#C68107' }}>Anderson Pinto</h4>
