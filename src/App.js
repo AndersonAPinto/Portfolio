@@ -1,36 +1,23 @@
-import React, { useEffect, useState } from "react";
-import Header from "./components/header/Header";
-import Content from "./components/content/Content";
-import effectBackgroundColor from "./components/pages/ItinerantBg";
-import { BrowserRouter as Router, Route, Routes, useLocation, useLoaderData } from 'react-router-dom';
-import PageInfo from "./components/pages/PageInfo";
-import PageTech from "./components/pages/Tech";
-import PageWorks from "./components/pages/Works";
-import PageContact from "./components/pages/Contact";
-import DelFooter from "./components/footer/DelFooter";
-import DelHeader from "./components/header/DelHeader"; 
-
-
-
+import Dropdown from './components/Layout/Dropdown.jsx';
+import Experience from './components/Pages/Experience.jsx';
+import AboutMe from './components/Pages/AboutMe.jsx';
+import Contact from './components/Pages/Contact.jsx';
+import Home from './components/Pages/Home.jsx';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
-  return (
-
-    <div>
+    return(
       <Router>
-        <DelHeader/>
+        <Dropdown />
         <Routes>
-          <Route path="/" element={<Content />} />
-          <Route path="/pageinfo" element={<PageInfo />} />
-          <Route path="/pagetech" element={<PageTech />} />
-          <Route path="/pageworks" element={<PageWorks />} />
-          <Route path="/pagecontact" element={<PageContact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/experience" element={<Experience />} />
         </Routes>
-        <DelFooter/>
+        
       </Router>
-
-    </div>
-  );
+    )
 }
 
 export default App;
