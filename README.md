@@ -33,7 +33,7 @@ Para uma visão detalhada dos meus projetos e habilidades, visite meu portfólio
 
 [Link do Portfólio](https://portfolio-iota-ruddy-28.vercel.app/)
 
-Estou aberto a oportunidades de trabalho, colaborações em projetos e qualquer tipo de feedback. Sinta-se à vontade para entrar em contato através dos links de contato disponíveis no site.
+Estou aberto a oportunidades de trabalho, colaborações em projetos e qualquer tipo de feedback. Sinta-se à vontade para entrar em contato através dos links de contato disponíveis no site. 
 
 Obrigado por visitar meu portfólio!
 
