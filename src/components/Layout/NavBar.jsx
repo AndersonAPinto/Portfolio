@@ -19,7 +19,7 @@ function NavBar() {
     }, []);
 
     return (
-        <>
+        <div className="principal">
             <button className="text_alert">
                 <AiOutlineAlert style={{ marginRight: '3px', backgroundColor: color, borderRadius: '50%' }} />
                 <h5>Disponível para Trabalhos</h5>
@@ -29,11 +29,9 @@ function NavBar() {
                 <h5>Desenvolvedor Frontend</h5>
                 <button className="btn_works" >
                 <Link to={'/experience'}><p>MEUS TRABALHOS <MdOutlineKeyboardDoubleArrowDown className="icon_works" /></p></Link>
-                    
-                </button>
+               </button>
             </div>
-
-        </>
+        </div>
     )
 }
 export default NavBar

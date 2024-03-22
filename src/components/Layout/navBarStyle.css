@@ -1,3 +1,6 @@
+.principal{
+    z-index: 99;
+}
 .text_alert{
     position: absolute;
     top: 30px;
@@ -81,4 +84,8 @@
 .icon_works:hover{
     border: 1px solid rgb(192, 192, 185);
     
+}
+#color{
+    background-color: transparent !important;
+    z-index: -99;
 }

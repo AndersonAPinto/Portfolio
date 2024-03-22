@@ -1,7 +1,8 @@
 import React from "react";
 import Photo from '../../imgs/photo.png'
 import { HiArrowDownRight } from "react-icons/hi2";
-import './aboutme.css'
+import './aboutme.css';
+import './aboutmeMobile.css';
 
 function AboutMe() {
     return (
@@ -9,7 +10,6 @@ function AboutMe() {
             <div className="title">
                 <h1><HiArrowDownRight/> Sobre mim </h1>
             </div>
-
             <div className="container_texts">
                 <div className="picture_div">
                     <img src={Photo} style={{ borderRadius: '40%', marginTop: '41px' }} alt='Foto do Dev' />

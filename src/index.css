@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  color: aliceblue;
+  color: rgb(247, 247, 247);
   font-family: Dosis;
   text-decoration: none;
   list-style: none;
@@ -8,6 +8,9 @@
   padding: 0;
   
 }
-body{
+#root{
   background-color: #070600;
+}
+a{
+  color: aliceblue;
 }
